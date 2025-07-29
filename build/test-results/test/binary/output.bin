@@ -1,0 +1,29 @@
+.point currently processing: Point(3.00, 1.00)
+openEdges: 0
+openEdges: 0
+oinsert into openEdges: p1Point(2.00, 1.00) p2Point(3.00, 1.00) edgeEdge(Point(2.0, 3.0), Point(3.0, 1.0)) at 0
+oinsert into openEdges: p1Point(2.00, 1.00) p2Point(3.00, 1.00) edgeEdge(Point(3.0, 1.0), Point(2.0, 2.0)) at 1
+.point currently processing: Point(2.00, 2.00)
+openEdges: 2
+
+delete...
+openEdges: 1
+oinsert into openEdges: p1Point(2.00, 1.00) p2Point(2.00, 2.00) edgeEdge(Point(2.0, 2.0), Point(1.0, 1.0)) at 0
+.point currently processing: Point(2.00, 3.00)
+openEdges: 2
+
+delete...
+openEdges: 1
+oinsert into openEdges: p1Point(2.00, 1.00) p2Point(2.00, 3.00) edgeEdge(Point(1.0, 1.0), Point(2.0, 3.0)) at 1
+.point currently processing: Point(2.00, 4.00)
+openEdges: 2
+openEdges: 2
+.point currently processing: Point(1.00, 1.00)
+openEdges: 2
+
+delete...
+
+delete...
+openEdges: 0
+:[Point(3.00, 1.00), Point(1.00, 1.00), Point(2.00, 2.00)]
+:[Point(3.00, 1.00), Point(1.00, 1.00), Point(2.00, 2.00)]
